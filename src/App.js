@@ -1,11 +1,11 @@
 import React from 'react';
-import './components/Catalog';
+
+import Catalog from "./components/Catalog";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-      </header>
+      <Catalog />
     </div>
   );
 }

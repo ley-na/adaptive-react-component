@@ -38,21 +38,4 @@
       display: block;
     }
   }
-
-  &__article {
-    margin-left: auto;
-    margin-right: auto;
-    background-color: #FAFAFA;
-    border-radius: 9px;
-    max-width: 270px;
-    min-height: 435px;
-  }
-
-  @media (max-width: 768px) {
-    padding: 60px 30px;
-  }
-
-  @media (max-width: 320px) {
-    padding: 40px 10px;
-  }
 }

@@ -6,12 +6,8 @@
   margin-right: auto;
   background-color: #FAFAFA;
   border-radius: 9px;
-  max-width: 270px;
+  width: 270px;
   min-height: 435px;
-
-  @media (max-width: 768px) {
-    padding: 60px 30px;
-  }
 
   @media (max-width: 650px) {
     margin-bottom: 30px;
@@ -19,10 +15,6 @@
     &:last-child {
       margin-bottom: 0;
     }
-  }
-
-  @media (max-width: 320px) {
-    padding: 40px 10px;
   }
 
   &__title {
@@ -38,5 +30,9 @@
     border: 2px solid #F1CDB3;
     border-radius: 100px;
     cursor: pointer;
+
+    &:hover {
+      background-color: #F1CDB3;
+    }
   }
 }

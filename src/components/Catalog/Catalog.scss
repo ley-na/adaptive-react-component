@@ -4,6 +4,14 @@
   margin-right: auto;
   padding: 80px 40px;
 
+  @media (max-width: 768px) {
+    padding: 60px 30px;
+  }
+
+  @media (max-width: 320px) {
+    padding: 40px 10px;
+  }
+
   &__title {
     max-width: 400px;
     margin: 0 auto 45px;
